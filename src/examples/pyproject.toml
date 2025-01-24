@@ -1,0 +1,20 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "Backend for dream team with Autogen"
+readme = "README.md"
+requires-python = ">=3.10, <3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "autogen-agentchat==0.4.0.dev13",
+    "autogen-core==0.4.0.dev13",
+    "autogen-ext[azure]==0.4.0.dev13",
+    "autogen-ext[docker]==0.4.0.dev13",
+    "azure-identity>=1.19.0",
+    "azure-search-documents==11.6.0b4",
+    "markitdown>=0.0.1a3",
+    "playwright>=1.49.1",
+    "promptflow-tracing==1.16.2",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.41.1",
+]
